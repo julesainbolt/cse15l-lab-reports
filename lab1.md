@@ -2,12 +2,17 @@
 
 ## cd - Change Directory
 
-1. Example of command with no arguments:
+1. Example of command with no arguments: 
+
+![Image]()
 
 2. Example of command with a path to a directory as an argument:
 
+![Image]()
+
 3. Example of command with a path to a file as an argument:
 
+![Image]()
 
 
 ## ls - List 
