@@ -6,13 +6,13 @@
 
     ![Image](cd%20-%20no%20arguments.png)
 
-- Working Directory: ~/lecture1/messages
+Working Directory: ~/lecture1/messages
 
-- The cd command changed the working directory to the root directory with no arguments specified.
-  When I entered in the pwd command, it displayed the new current working directory /home.
-  If you don't specify any arguments to the cd command, it must default to the root directory. 
+The cd command changed the working directory to the root directory with no arguments specified.
+When I entered in the pwd command, it displayed the new current working directory /home.
+If you don't specify any arguments to the cd command, it must default to the root directory. 
 
-- There's no error indicated. 
+There's no error indicated. 
 
 2. Example of command with a path to a directory as an argument:
 
