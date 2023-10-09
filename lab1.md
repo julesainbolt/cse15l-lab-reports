@@ -48,8 +48,8 @@
 
 - Working Directory: ~/lecture1
 
-- The ls command I ran displayed all the files and folders in the current working
-  directory ~/lecture1 with no arguments specified. If you don't specify any arguments,
+- The ls command I ran displayed all three files and the messages folder in the current working
+  directory with no arguments specified. If you don't specify any arguments,
   it displays all the files and folders in the current working directory. 
 
 - There's no error indicated. 
