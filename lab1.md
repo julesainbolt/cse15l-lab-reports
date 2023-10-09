@@ -4,7 +4,7 @@
 
 1. Example of command with no arguments: 
 
-![Image](cd%20-%20no%20arguments.png)
+    ![Image](cd%20-%20no%20arguments.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -16,7 +16,7 @@
 
 2. Example of command with a path to a directory as an argument:
 
-![Image](cd%20-%20path%20to%20directory.png)
+    ![Image](cd%20-%20path%20to%20directory.png)
 
 - Working Directory: /home
 
@@ -25,10 +25,9 @@
 
 - There's no error indicated. 
 
-
 3. Example of command with a path to a file as an argument:
 
-![Image](cd%20-%20path%20to%20file.png)
+     ![Image](cd%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -44,7 +43,7 @@
 
 1. Example of command with no arguments:
 
-![Image](ls%20-%20no%20arguments.png)
+    ![Image](ls%20-%20no%20arguments.png)
 
 - Working Directory: ~/lecture1
 
@@ -57,7 +56,7 @@
 
 2. Example of command with a path to a directory as an argument:
 
-![Image](ls%20-%20path%20to%20directory.png)
+    ![Image](ls%20-%20path%20to%20directory.png)
 
 - Working Directory: /home
 
@@ -70,7 +69,7 @@
 
 3. Example of command with a path to a file as an argument:
 
-![Image](ls%20-%20path%20to%20file.png)
+    ![Image](ls%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1
 
@@ -86,7 +85,7 @@
 
 1. Example of command with no arguments:
 
-![Image](cat%20-%20no%20arguments.png)
+    ![Image](cat%20-%20no%20arguments.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -100,7 +99,7 @@
 
 2. Example of command with a path to a directory as an argument:
 
-![Image](cat%20-%20path%20to%20directory.png)
+    ![Image](cat%20-%20path%20to%20directory.png)
 
 - Working Directory: /home
 
@@ -115,7 +114,7 @@
 
 3. Example of command with a path to a file as an argument:
 
-![Image](cat%20-%20path%20to%20file.png)
+    ![Image](cat%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1/messages
 
