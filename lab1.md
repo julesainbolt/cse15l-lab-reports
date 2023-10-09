@@ -32,12 +32,12 @@
 
 - Working Directory: ~/lecture1/messages
 
-- The cd command I ran gave me an error on the next line saying that cd: fr.txt: Not a directory.
+- The cd command I ran gave me an error on the next line saying, "cd: fr.txt: Not a directory".
   Because I passed in a file as an argument to the cd command, it caused that error to occur. 
 
 - There's an error in the cd command I ran. Because I passed in a file as an argument to the cd command,
-  the next line says cd: fr.txt: Not a directory, since the argument that's specified should be a directory, not a  
-  file.  
+  the next line says, "cd: fr.txt: Not a directory", since the argument that's specified should be a directory, not 
+  a file.  
 
 
 ## ls - List 
