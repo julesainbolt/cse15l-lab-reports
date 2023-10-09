@@ -36,7 +36,7 @@
   Because I passed in a file as an argument to the cd command, it caused that error to occur. 
 
 - There's an error in the cd command I ran. Because I passed in a file as an argument to the cd command,
-  the next line says cd: fr.txt: Not a directory, since the argument that's specified should be a directory, not a file.  
+  the next line says cd: fr.txt: Not a directory, since the argument that's specified should be a directory, not a     file.  
 
 
 ## ls - List 
@@ -45,23 +45,40 @@
 
 ![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/65ca78a6487797221cb83932670d78b9c4ec8a3c/ls%20-%20no%20arguments.png)
 
-- Working Directory: ~/lecture1/messages
+- Working Directory: ~/lecture1
 
-- The cd command I ran gave me an error on the next line saying that cd: fr.txt: Not a directory.
-  Because I passed in a file as an argument to the cd command, it caused that error to occur. 
+- The ls command I ran displayed all the files and folders in the current working
+  directory ~/lecture1 with no arguments specified. If you don't specify any arguments,
+  it displays all the files and folders in the current working directory. 
 
-- There's an error in the cd command I ran. Because I passed in a file as an argument to the cd command,
-  the next line says cd: fr.txt: Not a directory, since the argument that's specified should be a directory, not a file. 
-
+- There's no error indicated. 
 
 
 2. Example of command with a path to a directory as an argument:
 
+![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/17b575f3d0ea51aafc45c15edf15932b33873974/ls%20-%20path%20to%20directory.png)
+
+- Working Directory: /home
+
+- The ls command I ran displayed all the text files in the directory lecture1/messages with 
+  the path to that directory passed in as an argument. If you specify a path to a directory as an argument,
+  it displays all the files and folders in that directory. 
+
+- There's no error indicated. 
 
 
 3. Example of command with a path to a file as an argument:
 
+![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/17b575f3d0ea51aafc45c15edf15932b33873974/ls%20-%20path%20to%20file.png)
 
+- Working Directory: ~/lecture1
+
+- When I ran the ls command with the path messages/es-mx.txt as an argument, the output
+  displayed the same result as what I entered, messages/es-mx.txt. If you specify a path to a file as an argument,
+  it displays the same file path as what you passed in. Because you are only specifying one file,
+  it displays only that file or path to that file. 
+
+- There's no error indicated. 
 
 
 ## cat - Concatenate 
