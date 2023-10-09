@@ -6,7 +6,7 @@
 
 ## Hello, world!
 
-[Link](lab1.html)
+[Lab 1](lab1.html)
 
 ![Image]()
 
