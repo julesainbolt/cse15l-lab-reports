@@ -4,7 +4,7 @@
 
 1. Example of command with no arguments: 
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/65ca78a6487797221cb83932670d78b9c4ec8a3c/cd%20-%20no%20arguments.png)
+![Image](cd%20-%20no%20arguments.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -16,7 +16,7 @@
 
 2. Example of command with a path to a directory as an argument:
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/65ca78a6487797221cb83932670d78b9c4ec8a3c/cd%20-%20path%20to%20directory.png)
+![Image](cd%20-%20path%20to%20directory.png)
 
 - Working Directory: /home
 
@@ -28,7 +28,7 @@
 
 3. Example of command with a path to a file as an argument:
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/65ca78a6487797221cb83932670d78b9c4ec8a3c/cd%20-%20path%20to%20file.png)
+![Image](cd%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -44,7 +44,7 @@
 
 1. Example of command with no arguments:
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/65ca78a6487797221cb83932670d78b9c4ec8a3c/ls%20-%20no%20arguments.png)
+![Image](ls%20-%20no%20arguments.png)
 
 - Working Directory: ~/lecture1
 
@@ -57,7 +57,7 @@
 
 2. Example of command with a path to a directory as an argument:
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/17b575f3d0ea51aafc45c15edf15932b33873974/ls%20-%20path%20to%20directory.png)
+![Image](ls%20-%20path%20to%20directory.png)
 
 - Working Directory: /home
 
@@ -70,7 +70,7 @@
 
 3. Example of command with a path to a file as an argument:
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/17b575f3d0ea51aafc45c15edf15932b33873974/ls%20-%20path%20to%20file.png)
+![Image](ls%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1
 
@@ -86,7 +86,7 @@
 
 1. Example of command with no arguments:
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/b7d7a0ebc1176ae5eb48e973c11b8465ebf1fd6c/cat%20-%20no%20arguments.png)
+![Image](cat%20-%20no%20arguments.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -100,7 +100,7 @@
 
 2. Example of command with a path to a directory as an argument:
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/b7d7a0ebc1176ae5eb48e973c11b8465ebf1fd6c/cat%20-%20path%20to%20directory.png)
+![Image](cat%20-%20path%20to%20directory.png)
 
 - Working Directory: /home
 
@@ -115,7 +115,7 @@
 
 3. Example of command with a path to a file as an argument:
 
-![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/b7d7a0ebc1176ae5eb48e973c11b8465ebf1fd6c/cat%20-%20path%20to%20file.png)
+![Image](cat%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1/messages
 
