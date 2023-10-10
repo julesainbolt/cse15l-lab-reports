@@ -126,9 +126,19 @@ Without spaces
 
 With spaces
 
+
 1. Example of command with no arguments:
 
+- Working Directory: ~/lecture1/messages
+
+- When I ran the cat command with no arguments specified, the cursor moved to the next line and stopped.
+  If you don't specify any arguments, the cat command waits for user input from
+  the keyboard until the user presses CTRL + D. 
+  
+- There's no error indicated.
+   
 2. Example of command with a path to a directory as an argument:
+
 
 3. Example of command with a path to a file as an argument:
 
