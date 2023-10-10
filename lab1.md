@@ -2,7 +2,7 @@
 
 ## cd - Change Directory
 
-1. Example of command with no arguments:
+Example of command with no arguments:
 
    ![Image](cd%20-%20no%20arguments.png)
    
@@ -14,7 +14,7 @@
 
 - There's no error indicated.
 
-2. Example of command with a path to a directory as an argument:
+Example of command with a path to a directory as an argument:
 
    ![Image](cd%20-%20path%20to%20directory.png)
 
@@ -25,9 +25,9 @@
 
 - There's no error indicated.
   
-3. Example of command with a path to a file as an argument:
+Example of command with a path to a file as an argument:
 
-     ![Image](cd%20-%20path%20to%20file.png)
+   ![Image](cd%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -40,9 +40,9 @@
 
 ## ls - List 
 
-1. Example of command with no arguments:
+Example of command with no arguments:
 
-    ![Image](ls%20-%20no%20arguments.png)
+   ![Image](ls%20-%20no%20arguments.png)
 
 - Working Directory: ~/lecture1
 
@@ -52,9 +52,9 @@
 
 - There's no error indicated. 
 
-2. Example of command with a path to a directory as an argument:
+Example of command with a path to a directory as an argument:
 
-    ![Image](ls%20-%20path%20to%20directory.png)
+   ![Image](ls%20-%20path%20to%20directory.png)
 
 - Working Directory: /home
 
@@ -64,9 +64,9 @@
 
 - There's no error indicated. 
 
-3. Example of command with a path to a file as an argument:
+Example of command with a path to a file as an argument:
 
-    ![Image](ls%20-%20path%20to%20file.png)
+   ![Image](ls%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1
 
@@ -79,9 +79,9 @@
 
 ## cat - Concatenate 
 
-1. Example of command with no arguments:
+Example of command with no arguments:
 
-    ![Image](cat%20-%20no%20arguments.png)
+   ![Image](cat%20-%20no%20arguments.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -91,9 +91,9 @@
   
 - There's no error indicated. 
 
-2. Example of command with a path to a directory as an argument:
+Example of command with a path to a directory as an argument:
 
-    ![Image](cat%20-%20path%20to%20directory.png)
+   ![Image](cat%20-%20path%20to%20directory.png)
 
 - Working Directory: /home
 
@@ -105,9 +105,9 @@
 - There's no error indicated, but it shows a message saying, "cat: lecture1/messages: Is a directory".
   This is giving a warning to the user that they are trying to access a directory.
 
-3. Example of command with a path to a file as an argument:
+Example of command with a path to a file as an argument:
 
-    ![Image](cat%20-%20path%20to%20file.png)
+   ![Image](cat%20-%20path%20to%20file.png)
 
 - Working Directory: ~/lecture1/messages
 
@@ -116,30 +116,3 @@
   contents of that file are displayed.   
 
 - There's no error indicated.
-
-
-Without spaces
-
-1. Example of command with no arguments:
-2. Example of command with a path to a directory as an argument:
-3. Example of command with a path to a file as an argument:
-
-With spaces
-
-
-1. Example of command with no arguments:
-
-- Working Directory: ~/lecture1/messages
-
-- When I ran the cat command with no arguments specified, the cursor moved to the next line and stopped.
-  If you don't specify any arguments, the cat command waits for user input from
-  the keyboard until the user presses CTRL + D.
-  
-- There's no error indicated.
-
-
-2. Example of command with a path to a directory as an argument:
-
-
-3. Example of command with a path to a file as an argument:
-
