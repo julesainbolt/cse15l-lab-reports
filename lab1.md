@@ -13,7 +13,6 @@
   If you don't specify any arguments to the cd command, it must default to the root directory. 
 
 - There's no error indicated. 
-
 2. Example of command with a path to a directory as an argument:
 
    ![Image](cd%20-%20path%20to%20directory.png)
@@ -24,7 +23,6 @@
   When I entered in the pwd command, it displayed the new current working directory /home/lecture1/messages. 
 
 - There's no error indicated. 
-
 3. Example of command with a path to a file as an argument:
 
      ![Image](cd%20-%20path%20to%20file.png)
