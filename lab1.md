@@ -135,7 +135,9 @@ With spaces
   If you don't specify any arguments, the cat command waits for user input from
   the keyboard until the user presses CTRL + D.
   
-- There's no error indicated.   
+- There's no error indicated.
+
+
 2. Example of command with a path to a directory as an argument:
 
 
