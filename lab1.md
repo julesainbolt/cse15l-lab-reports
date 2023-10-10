@@ -4,7 +4,7 @@
 
 1. Example of command with no arguments:
 
-    ![Image](cd%20-%20no%20arguments.png)
+   ![Image](cd%20-%20no%20arguments.png)
    
 - Working Directory: ~/lecture1/messages
 
@@ -13,7 +13,7 @@
   If you don't specify any arguments to the cd command, it must default to the root directory. 
 
 - There's no error indicated.
-  
+
 2. Example of command with a path to a directory as an argument:
 
    ![Image](cd%20-%20path%20to%20directory.png)
@@ -38,7 +38,6 @@
   the next line says, "cd: fr.txt: Not a directory", since the argument that's specified should be a directory, not 
   a file.  
 
-
 ## ls - List 
 
 1. Example of command with no arguments:
@@ -53,7 +52,6 @@
 
 - There's no error indicated. 
 
-
 2. Example of command with a path to a directory as an argument:
 
     ![Image](ls%20-%20path%20to%20directory.png)
@@ -65,7 +63,6 @@
   it displays all the files and folders in that directory. 
 
 - There's no error indicated. 
-
 
 3. Example of command with a path to a file as an argument:
 
@@ -80,7 +77,6 @@
 
 - There's no error indicated. 
 
-
 ## cat - Concatenate 
 
 1. Example of command with no arguments:
@@ -93,9 +89,7 @@
   If you don't specify any arguments, the cat command waits for user input from
   the keyboard until the user presses CTRL + D. 
   
-
 - There's no error indicated. 
-
 
 2. Example of command with a path to a directory as an argument:
 
@@ -110,7 +104,6 @@
 
 - There's no error indicated, but it shows a message saying, "cat: lecture1/messages: Is a directory".
   This is giving a warning to the user that they are trying to access a directory.
-
 
 3. Example of command with a path to a file as an argument:
 
