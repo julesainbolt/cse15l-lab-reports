@@ -116,3 +116,19 @@
   contents of that file are displayed.   
 
 - There's no error indicated.
+
+
+Without spaces
+
+1. Example of command with no arguments:
+2. Example of command with a path to a directory as an argument:
+3. Example of command with a path to a file as an argument:
+
+With spaces
+
+1. Example of command with no arguments:
+
+2. Example of command with a path to a directory as an argument:
+
+3. Example of command with a path to a file as an argument:
+
