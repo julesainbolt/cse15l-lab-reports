@@ -4,7 +4,7 @@
 
 Example of command with no arguments:
 
-   ![Image](https://github.com/julesainbolt/cse15l-lab-reports/blob/eb30f47c9ab273f0b66a239475f07981e64b08b4/cd%20-%20no%20arguments.png)
+   ![Image](https://github.com/julesainbolt/cse15l-lab-reports/cd%20-%20no%20arguments.png)
    
 - Working Directory: ~/lecture1/messages
 
