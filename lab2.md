@@ -1,6 +1,10 @@
 # Servers and SSH Keys
 
-## Part 1 
+## Part 1
+
+![Image](Handler.png)
+
+![Image](StringServer.png)
 
 Example 1 of using /add-message: 
 
