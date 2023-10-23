@@ -2,13 +2,42 @@
 
 ## Part 1 
 
+Example 1 of using /add-message: 
+
 ![Image](%3Aadd-message%20Example%201.png)
 
+- The handleRequest method from the URLHandler interface that
+  the Handler class implements gets called. 
 
+- The handleRequest method accepts a URI object as an argument,
+  which is the URL that it processes. The fields of the class consist
+  of an int variable named num initialized to 0, and a string variable
+  named message initialized to an empty string.  
 
+- The int variable num gets incremented whenever a valid string query
+  parameter value gets added to the /add-message path at the end of the URL.
+  The string variable message starts out as an empty string, then gets
+  added onto whenever a valid string query parameter value gets added to
+  the /add-message path at the end of the URL.
+  
 
+Example 2 of using /add-message: 
 
 ![Image](%3Aadd-message%20Example%202.png)
+
+- The handleRequest method from the URLHandler interface that
+  the Handler class implements gets called.
+
+- The handleRequest method accepts a URI object as an argument,
+  which is the URL that it processes. The fields of the class consist
+  of an int variable named num initialized to 0, and a string variable
+  named message initialized to an empty string.
+
+- The int variable num gets incremented whenever a valid string query
+  parameter value gets added to the /add-message path at the end of the URL.
+  The string variable message starts out as an empty string, then gets
+  added onto whenever a valid string query parameter value gets added to
+  the /add-message path at the end of the URL.
 
 
 ## Part 2
