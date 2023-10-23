@@ -20,9 +20,10 @@ Example 1 of using /add-message:
 
 - The int variable num gets incremented whenever a valid string query
   parameter value gets added to the /add-message path at the end of the URL.
-  The string variable message starts out as an empty string, then gets
-  added onto whenever a valid string query parameter value gets added to
-  the /add-message path at the end of the URL.
+  The string variable message starts out as an empty string, then 
+  whenever a valid string query parameter value gets added to
+  the /add-message path at the end of the URL, that value
+  gets added to the message string variable.
   
 
 Example 2 of using /add-message: 
@@ -39,9 +40,10 @@ Example 2 of using /add-message:
 
 - The int variable num gets incremented whenever a valid string query
   parameter value gets added to the /add-message path at the end of the URL.
-  The string variable message starts out as an empty string, then gets
-  added onto whenever a valid string query parameter value gets added to
-  the /add-message path at the end of the URL.
+  The string variable message starts out as an empty string, then 
+  whenever a valid string query parameter value gets added to
+  the /add-message path at the end of the URL, that value
+  gets added to the message string variable.
 
 
 ## Part 2
