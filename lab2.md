@@ -8,7 +8,7 @@
 
 Example 1 of using /add-message: 
 
-![Image](%3Aadd-message%20Example%201.png)
+![Image](add-message1.png)
 
 - The handleRequest method from the URLHandler interface that
   the Handler class implements gets called. 
@@ -28,7 +28,7 @@ Example 1 of using /add-message:
 
 Example 2 of using /add-message: 
 
-![Image](%3Aadd-message%20Example%202.png)
+![Image](add-message2.png)
 
 - The handleRequest method from the URLHandler interface that
   the Handler class implements gets called.
