@@ -10,40 +10,48 @@ Example 1 of using /add-message:
 
 ![Image](add-message1.png)
 
-- The handleRequest method from the URLHandler interface that
-  the Handler class implements gets called. 
+- The `handleRequest` method from the `URLHandler` interface that
+  the `Handler` class implements gets called. 
 
-- The handleRequest method accepts a URI object as an argument,
+- The `handleRequest` method accepts a `URI` object as an argument,
   which is the URL that it processes. The fields of the class consist
-  of an int variable named num initialized to 0, and a string variable
-  named message initialized to an empty string.  
+  of an int variable named `num` initialized to 0, and a string variable
+  named `message` initialized to an empty string.  
 
 - The int variable num gets incremented whenever a valid string query
   parameter value gets added to the /add-message path at the end of the URL.
   The string variable message starts out as an empty string, then 
   whenever a valid string query parameter value gets added to
   the /add-message path at the end of the URL, that value
-  gets added to the message string variable.
+  gets added to the message string variable. In this example,
+  the `message` variable is initialized to an empty string before
+  the method is called. After the method is called, `message` is initialized to
+  "1. Bonjour!\n\n". The `num` variable is initialized to 0 before the
+  method is called. After the method is called, `num` is initialized to 1.  
   
 
 Example 2 of using /add-message: 
 
 ![Image](add-message2.png)
 
-- The handleRequest method from the URLHandler interface that
-  the Handler class implements gets called.
+- The `handleRequest` method from the `URLHandler` interface that
+  the `Handler` class implements gets called.
 
-- The handleRequest method accepts a URI object as an argument,
+- The `handleRequest` method accepts a `URI` object as an argument,
   which is the URL that it processes. The fields of the class consist
-  of an int variable named num initialized to 0, and a string variable
-  named message initialized to an empty string.
+  of an int variable named `num` initialized to 0, and a string variable
+  named `message` initialized to an empty string.
 
 - The int variable num gets incremented whenever a valid string query
   parameter value gets added to the /add-message path at the end of the URL.
   The string variable message starts out as an empty string, then 
   whenever a valid string query parameter value gets added to
   the /add-message path at the end of the URL, that value
-  gets added to the message string variable.
+  gets added to the message string variable. In this example,
+  the `message` variable is initialized to "1. Bonjour!\n\n" before
+  the method is called. After the method is called, `message` is initialized to
+  "1. Bonjour!\n\n2. Comment ça va?\n\n". The `num` variable is initialized to 1
+  before the method is called. After the method is called, `num` is initialized to 2.
 
 
 ## Part 2
