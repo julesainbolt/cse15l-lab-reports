@@ -4,3 +4,10 @@
 
 
 ## Part 2 - Researching Commands
+
+
+The *Grep* command 
+
+### Command-line options: 
+
+
