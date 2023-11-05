@@ -104,7 +104,7 @@ advisories, intended to alert their recipients, may address a specific threat or
                 his or her in-box to the threat reports agitating senior officials and being briefed`
 
   In this example, the `grep` command is searching for the string "threat" in the file 
-  *chapter-8.txt* under the `911report` directory. It's using the `-i` option, which is 
+  *chapter-8.txt* under the `/911report` directory. It's using the `-i` option, which is 
   case insensitive search, so the `grep` command is matching the string "threat" in the
   file, while ignoring the cases of the characters. In other words, "THREAT" and "threat"
   are represented the same way. This command-line option is useful because it searches for 
@@ -708,7 +708,7 @@ Example 2:
 ./technical/government/Alcohol_Problems/Session4-PDF.txt:trauma centers and EDs can help alcohol researchers learn more`
 
   In this example, the `grep` command is searching for the string "Alcohol" in all the files under the     
-  directory `Alcohol_Problems`. It's using the `-i` option, which is 
+  directory `/Alcohol_Problems`. It's using the `-i` option, which is 
   case insensitive search, so the `grep` command is matching the string "Alcohol" in all the
   files, while ignoring the cases of the characters. In other words, "Alcohol" and "alcohol"
   are represented the same way. This command-line option is useful because it searches for a specific string 
@@ -810,7 +810,7 @@ Example 1:
 
 
   In this example, the `grep` command is searching for the string pattern "environment" in all the files under 
-  the subdirectory `Env_Prot_Agen`. It's using the `-c` option, which counts the number of occurrences of 
+  the subdirectory `/Env_Prot_Agen`. It's using the `-c` option, which counts the number of occurrences of 
   the specified string pattern in a file or files. As shown in the output above, in this case, it displays
   the relative path to each file, followed by a colon, and the number of occurrences of that pattern in each 
   file. This command-line option is useful because it tells you how many times a specific string occurs in a 
@@ -825,7 +825,7 @@ Example 2:
 ``88``
 
   In this example, the `grep` command is searching for the string pattern "gene" in the *gb-2003-4-9-r58.txt* 
-  file under the directory `biomed`. It's using the `-c` option, which counts the number of 
+  file under the directory `/biomed`. It's using the `-c` option, which counts the number of 
   occurrences of the specified string pattern in a file or files. As shown in the output above, in this case, 
   it displays the number of occurrences of that pattern in this file. This command-line option is useful 
   because it tells you how many times a specific string occurs in a file or files. It's especially helpful if 
@@ -855,6 +855,13 @@ Example 1:
 ./technical/911report/chapter-8.txt
 ./technical/911report/chapter-9.txt
 ./technical/911report/preface.txt`
+
+  In this example, the `grep` command is searching for the string pattern "terrorist" in all the files under 
+  the directory `/911report`. It's using the `-l` option, which searches the specified pattern in one file or 
+  across multiple files or directories/subdirectories and displays all the file names that contain that 
+  pattern. As shown in the output above, in this case, it displays the relative path to each file under the 
+  `911report` directory. This command-line option is useful because it can narrow down which files contain the 
+  specified string pattern you are looking for. 
 
 
 Example 2:
@@ -915,4 +922,10 @@ Example 2:
 ./technical/plos/pmed.0020237.txt
 ./technical/plos/pmed.0020273.txt`
 
+  In this example, the `grep` command is searching for the string pattern "DNA" in all the files under 
+  the directory `/plos`. It's using the `-l` option, which searches the specified pattern in one file or 
+  across multiple files or directories/subdirectories and displays all the file names that contain that 
+  pattern. As shown in the output above, in this case, it displays the relative path to each file under the 
+  `plos` directory. This command-line option is useful because it can narrow down which files contain the 
+  specified string pattern you are looking for. 
 
