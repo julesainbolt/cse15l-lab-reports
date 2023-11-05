@@ -107,7 +107,9 @@ advisories, intended to alert their recipients, may address a specific threat or
   *chapter-8.txt* under the `911report` directory. It's using the `-i` option, which is 
   case insensitive search, so the `grep` command is matching the string "threat" in the
   file, while ignoring the cases of the characters. In other words, "THREAT" and "threat"
-  are represented the same way. 
+  are represented the same way. This command-line option is useful because it searches for 
+  a specific string that you are looking for in a file or files where the cases of those characters, 
+  whether it's upper or lowercase, don't have to match. 
 
 
 Example 2:
@@ -705,11 +707,13 @@ Example 2:
 ./technical/government/Alcohol_Problems/Session4-PDF.txt:no longer require him to strike any references that show alcohol
 ./technical/government/Alcohol_Problems/Session4-PDF.txt:trauma centers and EDs can help alcohol researchers learn more`
 
-  In this example, the `grep` command is searching for the string "threat" in the file 
-  *chapter-8.txt* under the `911report` directory. It's using the `-i` option, which is 
-  case insensitive search, so the `grep` command is matching the string "threat" in the
-  file, while ignoring the cases of the characters. In other words, "THREAT" and "threat"
-  are represented the same way. 
+  In this example, the `grep` command is searching for the string "Alcohol" in all the files under the     
+  directory `Alcohol_Problems`. It's using the `-i` option, which is 
+  case insensitive search, so the `grep` command is matching the string "Alcohol" in all the
+  files, while ignoring the cases of the characters. In other words, "Alcohol" and "alcohol"
+  are represented the same way. This command-line option is useful because it searches for a specific string 
+  that you are looking for in a file or files where the cases of those characters, whether it's upper or 
+  lowercase, don't have to match.  
 
 
 ## -r: Recursive Search 
@@ -805,11 +809,28 @@ Example 1:
 ./technical/government/Env_Prot_Agen/tech_sectiong.txt:4`
 
 
+  In this example, the `grep` command is searching for the string pattern "environment" in all the files under 
+  the subdirectory `Env_Prot_Agen`. It's using the `-c` option, which counts the number of occurrences of 
+  the specified string pattern in a file or files. As shown in the output above, in this case, it displays
+  the relative path to each file, followed by a colon, and the number of occurrences of that pattern in each 
+  file. This command-line option is useful because it tells you how many times a specific string occurs in a 
+  file or files. It's especially helpful if you want to know how many times an error message appeared in a log 
+  file. 
+
+
 Example 2:
 
 ```grep -c "gene" ./technical/biomed/gb-2003-4-9-r58.txt```
 
 ``88``
+
+  In this example, the `grep` command is searching for the string pattern "gene" in the *gb-2003-4-9-r58.txt* 
+  file under the directory `biomed`. It's using the `-c` option, which counts the number of 
+  occurrences of the specified string pattern in a file or files. As shown in the output above, in this case, 
+  it displays the number of occurrences of that pattern in this file. This command-line option is useful 
+  because it tells you how many times a specific string occurs in a file or files. It's especially helpful if 
+  you want to know how many times an error message appeared in a log file.
+
 
 ## -l: Print Matched Files
 
