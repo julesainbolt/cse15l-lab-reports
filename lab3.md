@@ -103,6 +103,12 @@ advisories, intended to alert their recipients, may address a specific threat or
                 respond to the threats.
                 his or her in-box to the threat reports agitating senior officials and being briefed`
 
+  In this example, the `grep` command is searching for the string "threat" in the file 
+  *chapter-8.txt* under the `911report` directory. It's using the `-i` option, which is 
+  case insensitive search, so the `grep` command is matching the string "threat" in the
+  file, while ignoring the cases of the characters. In other words, "THREAT" and "threat"
+  are represented the same way. 
+
 
 Example 2:
 
