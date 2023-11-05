@@ -701,6 +701,75 @@ Example 2:
 
 ## -r: Recursive Search 
 
+Example 1: 
+
+```grep -r "Alzheimer" ./technical/biomed/```
+
+`./technical/biomed//1471-2415-3-5.txt:          Parkinson's disease [ 53 ] and Alzheimer's disease [ 54 ]
+./technical/biomed//1471-2210-1-10.txt:        might be beneficial in the treatment of Alzheimer's disease
+./technical/biomed//1471-2202-4-16.txt:        diseases, including Parkinson's, Alzheimer's and prion
+./technical/biomed//1471-2202-4-16.txt:        other neurodegenerative conditions, including Alzheimer's
+./technical/biomed//1471-2377-2-6.txt:        Patients with Alzheimer's disease experience a
+./technical/biomed//1471-2377-2-6.txt:        cognitive part of the Alzheimer's Disease Assessment Scale
+./technical/biomed//1471-2377-2-6.txt:          mild-to-moderate Alzheimer's disease studied in two
+./technical/biomed//1471-2377-2-6.txt:          these trials were diagnosed with Alzheimer's disease
+./technical/biomed//1471-2377-2-6.txt:          dependency of patients with Alzheimer's disease [ 9 ] .
+./technical/biomed//1471-2377-2-6.txt:          typically observed in patients with Alzheimer's disease.
+./technical/biomed//1471-2377-2-6.txt:          disability of patients with Alzheimer's disease.
+./technical/biomed//1471-2377-2-6.txt:        daily activities is an important aspect of Alzheimer's for
+./technical/biomed//1471-2377-2-6.txt:        Alzheimer's disease [ 18 ] and antipsychotic medications
+./technical/biomed//1471-2377-2-6.txt:        in patients with Alzheimer's disease [ 9 10 ] . The
+./technical/biomed//1471-2377-2-6.txt:        conducted to study treatments for Alzheimer's disease have
+./technical/biomed//1471-2377-2-6.txt:        diagnosed with Alzheimer's disease. Moreover, this
+./technical/biomed//1471-2164-3-29.txt:        in early-onset familial Alzheimer's disease. There is
+./technical/biomed//1471-2202-2-16.txt:        cholinergic cells. Alzheimer's disease (AD) is
+./technical/biomed//1471-2350-3-1.txt:        ] , Alzheimer disease [ 43 44 45 ] , type 1 diabetes [ 46 ]
+./technical/biomed//1471-2202-2-14.txt:        visual spatial attention [ 19 ] . Patients with Alzheimer's
+./technical/biomed//1471-2202-2-14.txt:        at risk for Alzheimer's disease have been shown to have a
+./technical/biomed//1471-2202-2-14.txt:        same direction as the Alzheimer's patients [ 28 ] . Other
+./technical/biomed//1471-2202-2-14.txt:        influence orienting in a task similar to ours. Alzheimer's
+./technical/biomed//1475-2832-1-1.txt:        Alzheimer's Disease Research Clinical Center, by the
+./technical/biomed//1477-7827-1-46.txt:        Alzheimer's disease.
+./technical/biomed//1477-7827-1-46.txt:          Neurodegenerative diseases, including Alzheimer's
+./technical/biomed//1477-7827-1-46.txt:          is the most obvious consequence of Alzheimer's disease [
+./technical/biomed//1477-7827-1-46.txt:        such as Alzheimer's disease, cerebral ischemia, prion
+./technical/biomed//1477-7827-1-46.txt:        the prevention and treatment of Alzheimer's disease [ 72 73
+./technical/biomed//1477-7827-1-46.txt:        contribute to the development of Alzheimer's disease and
+./technical/biomed//1477-7827-1-46.txt:        Alzheimer's disease.
+./technical/biomed//1471-2202-2-20.txt:        neurological disorders such as, Alzheimer's disease [ 4 5 ]
+./technical/biomed//1471-2202-2-20.txt:        pathophysiologic events in Alzheimer's disease: deposition
+./technical/biomed//1471-2202-2-20.txt:        pathophysiologic event(s) in Alzheimer's disease [ 53 54 55
+./technical/biomed//1471-2202-2-20.txt:        inflammatory factor prevalent in Alzheimer's disease)
+./technical/biomed//1471-2172-2-10.txt:        on Alzheimer's disease as well since cytokines may
+./technical/biomed//gb-2003-4-2-r8.txt:        Alzheimer's disease (FAD) [ 48]. 
+./technical/biomed//1471-2202-4-3.txt:          (e.g., Parkinson or Alzheimer disease); since, for
+./technical/biomed//1472-6947-1-5.txt:            patients with Alzheimer's Disease found improved
+./technical/biomed//1472-6947-1-5.txt:        Alzheimer's Disease. The most studied area in home-based
+./technical/biomed//1471-2350-2-8.txt:        Alzheimer's disease [ 5, 6, 7].
+./technical/biomed//gb-2002-3-10-research0055.txt:          Alzheimer's disease) through the analysis of their`
+
+Example 2:
+
+```grep -r "World War II" ./technical/```
+
+`./technical//government/Gen_Account_Office/Testimony_cg00010t.txt:With the U.S. entry into World War II, GAO faced enormous
+./technical//government/Gen_Account_Office/d03232sp.txt:Since World War II, the Congress has clarified and expanded that
+./technical//government/Gen_Account_Office/d01591sp.txt:20Since World War II, annual growth in GDP per capita has
+./technical//government/Gen_Account_Office/d01591sp.txt:every 35 years. Since World War II, annual growth in GDP per capita
+./technical//government/Media/It_Pays_to_Know.txt:Lee Kemp, a hearing-impaired World War II disabled vet, also was
+./technical//plos/journal.pbio.0020101.txt:        coincidentally after World War II, was Konrad Lorenz (1966). Lorenz's thesis was greeted
+./technical//plos/journal.pbio.0020067.txt:        defense—the cavity magnetron that may have turned the course of World War II.
+./technical//plos/journal.pbio.0020067.txt:        Bernal, and Dorothy Hodgkin. The other was the pre-World War II work of William Astbury in
+./technical//biomed/bcr583.txt:        Norwegian women who were adolescents during World War II,
+./technical//911report/chapter-13.5.txt:                World War II (Oxford Univ. Press, 1988), p. 215.
+./technical//911report/chapter-13.1.txt:            The men and women of the World War II generation rose to the challenges of the 1940s
+./technical//911report/chapter-3.txt:            The FBI's domestic intelligence gathering dates from the 1930s. With World War II
+./technical//911report/chapter-3.txt:                in World War II after having first thought the FBI might take that role. The father
+./technical//911report/chapter-3.txt:            At the end of World War II, to Donovan's disappointment, President Harry Truman
+./technical//911report/chapter-3.txt:                following World War II. The Congressional Reorganization Act of 1946 created the
+./technical//911report/chapter-2.txt:                progress. After gaining independence from Western powers following World War II, the`
+
+
 ## -c: Count Pattern Occurrences
 
 Example 1:
@@ -730,4 +799,86 @@ Example 2:
 ``88``
 
 ## -l: Print Matched Files
+
+Example 1:
+
+```grep -l "terrorist" ./technical/911report/*```
+
+`./technical/911report/chapter-1.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-9.txt
+./technical/911report/preface.txt`
+
+
+Example 2:
+
+```grep -l "DNA" ./technical/plos/*```
+
+`./technical/plos/journal.pbio.0020013.txt
+./technical/plos/journal.pbio.0020028.txt
+./technical/plos/journal.pbio.0020035.txt
+./technical/plos/journal.pbio.0020040.txt
+./technical/plos/journal.pbio.0020043.txt
+./technical/plos/journal.pbio.0020053.txt
+./technical/plos/journal.pbio.0020067.txt
+./technical/plos/journal.pbio.0020068.txt
+./technical/plos/journal.pbio.0020071.txt
+./technical/plos/journal.pbio.0020073.txt
+./technical/plos/journal.pbio.0020121.txt
+./technical/plos/journal.pbio.0020133.txt
+./technical/plos/journal.pbio.0020145.txt
+./technical/plos/journal.pbio.0020148.txt
+./technical/plos/journal.pbio.0020150.txt
+./technical/plos/journal.pbio.0020183.txt
+./technical/plos/journal.pbio.0020190.txt
+./technical/plos/journal.pbio.0020206.txt
+./technical/plos/journal.pbio.0020213.txt
+./technical/plos/journal.pbio.0020223.txt
+./technical/plos/journal.pbio.0020241.txt
+./technical/plos/journal.pbio.0020262.txt
+./technical/plos/journal.pbio.0020263.txt
+./technical/plos/journal.pbio.0020276.txt
+./technical/plos/journal.pbio.0020302.txt
+./technical/plos/journal.pbio.0020307.txt
+./technical/plos/journal.pbio.0020347.txt
+./technical/plos/journal.pbio.0020354.txt
+./technical/plos/journal.pbio.0020400.txt
+./technical/plos/journal.pbio.0020419.txt
+./technical/plos/journal.pbio.0020431.txt
+./technical/plos/journal.pbio.0020440.txt
+./technical/plos/journal.pbio.0030024.txt
+./technical/plos/journal.pbio.0030050.txt
+./technical/plos/journal.pbio.0030056.txt
+./technical/plos/journal.pbio.0030062.txt
+./technical/plos/journal.pbio.0030065.txt
+./technical/plos/journal.pbio.0030076.txt
+./technical/plos/journal.pbio.0030094.txt
+./technical/plos/journal.pbio.0030102.txt
+./technical/plos/pmed.0010028.txt
+./technical/plos/pmed.0010047.txt
+./technical/plos/pmed.0020017.txt
+./technical/plos/pmed.0020018.txt
+./technical/plos/pmed.0020033.txt
+./technical/plos/pmed.0020045.txt
+./technical/plos/pmed.0020060.txt
+./technical/plos/pmed.0020068.txt
+./technical/plos/pmed.0020073.txt
+./technical/plos/pmed.0020103.txt
+./technical/plos/pmed.0020161.txt
+./technical/plos/pmed.0020237.txt
+./technical/plos/pmed.0020273.txt`
+
 
