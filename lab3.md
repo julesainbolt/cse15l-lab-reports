@@ -705,6 +705,13 @@ Example 2:
 ./technical/government/Alcohol_Problems/Session4-PDF.txt:no longer require him to strike any references that show alcohol
 ./technical/government/Alcohol_Problems/Session4-PDF.txt:trauma centers and EDs can help alcohol researchers learn more`
 
+  In this example, the `grep` command is searching for the string "threat" in the file 
+  *chapter-8.txt* under the `911report` directory. It's using the `-i` option, which is 
+  case insensitive search, so the `grep` command is matching the string "threat" in the
+  file, while ignoring the cases of the characters. In other words, "THREAT" and "threat"
+  are represented the same way. 
+
+
 ## -r: Recursive Search 
 
 Example 1: 
