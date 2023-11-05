@@ -11,3 +11,11 @@ The *Grep* command
 ### Command-line options: 
 
 
+## -i: Case Insensitive Search 
+
+## -r: Recursive Search 
+
+## -c: Count Pattern Occurrences
+
+## -l: Print Matched Files
+
