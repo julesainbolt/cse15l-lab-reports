@@ -765,6 +765,15 @@ Example 1:
 ./technical/biomed//1471-2350-2-8.txt:        Alzheimer's disease [ 5, 6, 7].
 ./technical/biomed//gb-2002-3-10-research0055.txt:          Alzheimer's disease) through the analysis of their`
 
+  In this example, the `grep` command is searching for the string pattern "Alzheimer" in all the files under 
+  the directory `/biomed`. It's using the `-r` option, which recursively searches the specified pattern across 
+  multiple files or directories/subdirectories. As shown in the output above, in this case, it displays the 
+  relative path to each file under the `/biomed` directory, followed by a colon, and the line in the file where 
+  it shows that pattern. This command-line option is useful because it tracks down all instances of the 
+  specified pattern across multiple directories/subdirectories or files and displays the lines in each file 
+  that contain that pattern. This helps a lot if you are doing research on a topic and want to look up a 
+  certain word. 
+
 Example 2:
 
 ```grep -r "World War II" ./technical/```
@@ -785,6 +794,16 @@ Example 2:
 ./technical//911report/chapter-3.txt:            At the end of World War II, to Donovan's disappointment, President Harry Truman
 ./technical//911report/chapter-3.txt:                following World War II. The Congressional Reorganization Act of 1946 created the
 ./technical//911report/chapter-2.txt:                progress. After gaining independence from Western powers following World War II, the`
+
+
+  In this example, the `grep` command is searching for the string pattern "World War II" in all the directories 
+  and subdirectories under the directory `/technical`. It's using the `-r` option, which recursively searches 
+  the specified pattern across multiple files or directories/subdirectories. As shown in the output above, in 
+  this case, it displays the relative path to each file under each directory and subdirectory, followed by a 
+  colon, and the line in the file where it shows that pattern. This command-line option is useful because it 
+  tracks down all instances of the specified pattern across multiple directories/subdirectories or files and 
+  displays the lines in each file that contain that pattern. This helps a lot if you are doing research on a 
+  topic and want to look up a certain word. 
 
 
 ## -c: Count Pattern Occurrences
