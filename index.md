@@ -10,6 +10,8 @@
 
 [Lab 2](lab2.html)
 
+[Lab 3](lab3.html)
+
 ![Image]()
 
 > Hello, world!
