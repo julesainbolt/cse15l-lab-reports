@@ -721,6 +721,8 @@ Example 2:
 
 ## -r: Recursive Search 
 
+I found this option from the terminal using the `man` command.
+
 Example 1: 
 
 ```grep -r "Alzheimer" ./technical/biomed/```
