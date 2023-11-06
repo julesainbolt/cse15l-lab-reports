@@ -13,6 +13,8 @@ The *Grep* command
 
 ## -i: Case Insensitive Search 
 
+I found this option from the class lecture slides on Canvas. 
+
 Example 1:
 
 ```grep -i "threat" ./technical/911report/chapter-8.txt```
@@ -110,6 +112,7 @@ advisories, intended to alert their recipients, may address a specific threat or
   are represented the same way. This command-line option is useful because it searches for 
   a specific string that you are looking for in a file or files where the cases of those characters, 
   whether it's upper or lowercase, don't have to match. 
+
 
 
 Example 2:
