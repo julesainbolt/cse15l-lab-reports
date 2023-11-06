@@ -8,6 +8,8 @@
 
 Example 1 of using /add-message: 
 
+This is the first time I use `/add-message`.
+
 ![Image](add-message1.png)
 
 - The `handleRequest` method from the `URLHandler` interface that
@@ -31,6 +33,8 @@ Example 1 of using /add-message:
   
 
 Example 2 of using /add-message: 
+
+This is the second time I use `/add-message`.
 
 ![Image](add-message2.png)
 
