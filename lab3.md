@@ -8,7 +8,7 @@
 
 The *Grep* command 
 
-### Command-line options: 
+### 4 Command-line options: 
 
 
 ## -i: Case Insensitive Search 
