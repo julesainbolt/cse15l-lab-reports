@@ -2,6 +2,30 @@
 
 ## Part 1 - Bugs
 
+Array Methods
+
+- Failure-inducing input
+
+  ```
+  @Test 
+	public void testReverseInPlace2() {
+    int[] input1 = { 3, 5, 10, 15 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 15, 10, 5, 3 }, input1);
+	}
+  ```
+
+- Non Failure-inducing input
+
+  ```
+  @Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+  ```
+
 
 ## Part 2 - Researching Commands
 
