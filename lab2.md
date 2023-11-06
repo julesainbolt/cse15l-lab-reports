@@ -63,15 +63,15 @@ This is the second time I use `/add-message`.
 
 ## Using the `ls` command
 
-Path to my private key for logging onto ieng6: 
+Path to my private key for logging onto `ieng6`: 
 
 ![Image](path%20to%20private%20key.png)
 
-Path to my public key for logging onto ieng6:
+Path to my public key for logging onto `ieng6`:
 
 ![Image](path%20to%20public%20key.png)
 
-Logging onto ieng6 without being asked for a password:
+Logging onto `ieng6` without being asked for a password:
 
 ![Image](ieng6%20login.png)
 
