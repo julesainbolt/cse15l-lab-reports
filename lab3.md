@@ -813,7 +813,7 @@ Example 2:
 
 ## -c: Count Pattern Occurrences
 
-[FreeCodeCamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/.html)
+[FreeCodeCamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples)
 
 Example 1:
 
