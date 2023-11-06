@@ -813,6 +813,8 @@ Example 2:
 
 ## -c: Count Pattern Occurrences
 
+[FreeCodeCamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/.html)
+
 Example 1:
 
 ```grep -c "environment" ./technical/government/Env_Prot_Agen/*```
