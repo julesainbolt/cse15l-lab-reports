@@ -6,7 +6,7 @@
 
 ![Image](StringServer.png)
 
-Example 1 of using /add-message: 
+Example 1 of using `/add-message`: 
 
 This is the first time I use `/add-message`.
 
@@ -33,7 +33,7 @@ This is the first time I use `/add-message`.
   method is called. After the method is called, `num` is initialized to 1.  
   
 
-Example 2 of using /add-message: 
+Example 2 of using `/add-message`: 
 
 This is the second time I use `/add-message`.
 
