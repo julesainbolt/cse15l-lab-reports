@@ -59,10 +59,9 @@ This is the second time I use `/add-message`.
   "1. Bonjour!\n\n2. Comment ça va?\n\n". The `num` variable is initialized to 1
   before the method is called. After the method is called, `num` is initialized to 2.
 
-
 ## Part 2
 
-## Using the *ls* command
+## Using the `ls` command
 
 Path to my private key for logging onto ieng6: 
 
