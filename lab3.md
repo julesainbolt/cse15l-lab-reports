@@ -13,7 +13,7 @@ The *Grep* command
 
 ## -i: Case Insensitive Search 
 
-I found this option from the class lecture slides on Canvas. 
+I found this command-line option from the class lecture slides on Canvas. 
 
 Example 1:
 
@@ -813,7 +813,7 @@ Example 2:
 
 ## -c: Count Pattern Occurrences
 
-[FreeCodeCamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples.html)
+[FreeCodeCamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/.html)
 
 Example 1:
 
