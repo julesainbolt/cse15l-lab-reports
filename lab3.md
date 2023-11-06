@@ -17,10 +17,13 @@ I found this command-line option from the class lecture slides on Canvas.
 
 Example 1:
 
-```grep -i "threat" ./technical/911report/chapter-8.txt```
+```
+grep -i "threat" ./technical/911report/chapter-8.txt
+```
 
 
-` THE SUMMER OF THREAT
+```
+THE SUMMER OF THREAT
 reports about threats. Indeed, there appeared to be possible threats almost
 To understand how the escalation in threat reporting was handled in the summer of
 2001, it is useful to understand how threat information in general is collected and
@@ -103,7 +106,8 @@ advisories, intended to alert their recipients, may address a specific threat or
                 the threat reporting during the summer of 2001.
                 hijacking threat might have derailed the plot.107With time, the search for Mihdhar
                 respond to the threats.
-                his or her in-box to the threat reports agitating senior officials and being briefed`
+                his or her in-box to the threat reports agitating senior officials and being briefed
+```
 
   In this example, the `grep` command is searching for the string "threat" in the file 
   *chapter-8.txt* under the `/911report` directory. It's using the `-i` option, which is 
@@ -117,9 +121,12 @@ advisories, intended to alert their recipients, may address a specific threat or
 
 Example 2:
 
-```grep -i "Alcohol" ./technical/government/Alcohol_Problems/*```
+```
+grep -i "Alcohol" ./technical/government/Alcohol_Problems/*
+```
 
-`./technical/government/Alcohol_Problems/DraftRecom-PDF.txt:address the full spectrum of alcohol problems among ED
+```
+./technical/government/Alcohol_Problems/DraftRecom-PDF.txt:address the full spectrum of alcohol problems among ED
 ./technical/government/Alcohol_Problems/DraftRecom-PDF.txt:"alcohol problems" does not always include risky drinking and
 ./technical/government/Alcohol_Problems/DraftRecom-PDF.txt:detail on the spectrum of alcohol problems. He suggested the main
 ./technical/government/Alcohol_Problems/DraftRecom-PDF.txt:include the whole continuum of alcohol problems, not just a portion
@@ -708,7 +715,8 @@ Example 2:
 ./technical/government/Alcohol_Problems/Session4-PDF.txt:articles from non-MDs. If non-MD, alcohol methodologists could
 ./technical/government/Alcohol_Problems/Session4-PDF.txt:values. He related that his alcohol studies used to be returned
 ./technical/government/Alcohol_Problems/Session4-PDF.txt:no longer require him to strike any references that show alcohol
-./technical/government/Alcohol_Problems/Session4-PDF.txt:trauma centers and EDs can help alcohol researchers learn more`
+./technical/government/Alcohol_Problems/Session4-PDF.txt:trauma centers and EDs can help alcohol researchers learn more
+```
 
   In this example, the `grep` command is searching for the string "Alcohol" in all the files under the     
   directory `/Alcohol_Problems`. It's using the `-i` option, which is 
@@ -725,9 +733,12 @@ I found this option from the terminal using the `man` command.
 
 Example 1: 
 
-```grep -r "Alzheimer" ./technical/biomed/```
+```
+grep -r "Alzheimer" ./technical/biomed/
+```
 
-`./technical/biomed//1471-2415-3-5.txt:          Parkinson's disease [ 53 ] and Alzheimer's disease [ 54 ]
+```
+./technical/biomed//1471-2415-3-5.txt:          Parkinson's disease [ 53 ] and Alzheimer's disease [ 54 ]
 ./technical/biomed//1471-2210-1-10.txt:        might be beneficial in the treatment of Alzheimer's disease
 ./technical/biomed//1471-2202-4-16.txt:        diseases, including Parkinson's, Alzheimer's and prion
 ./technical/biomed//1471-2202-4-16.txt:        other neurodegenerative conditions, including Alzheimer's
@@ -768,7 +779,8 @@ Example 1:
 ./technical/biomed//1472-6947-1-5.txt:            patients with Alzheimer's Disease found improved
 ./technical/biomed//1472-6947-1-5.txt:        Alzheimer's Disease. The most studied area in home-based
 ./technical/biomed//1471-2350-2-8.txt:        Alzheimer's disease [ 5, 6, 7].
-./technical/biomed//gb-2002-3-10-research0055.txt:          Alzheimer's disease) through the analysis of their`
+./technical/biomed//gb-2002-3-10-research0055.txt:          Alzheimer's disease) through the analysis of their
+```
 
   In this example, the `grep` command is searching for the string pattern "Alzheimer" in all the files under 
   the directory `/biomed`. It's using the `-r` option, which recursively searches the specified pattern across 
@@ -781,9 +793,12 @@ Example 1:
 
 Example 2:
 
-```grep -r "World War II" ./technical/```
+```
+grep -r "World War II" ./technical/
+```
 
-`./technical//government/Gen_Account_Office/Testimony_cg00010t.txt:With the U.S. entry into World War II, GAO faced enormous
+```
+./technical//government/Gen_Account_Office/Testimony_cg00010t.txt:With the U.S. entry into World War II, GAO faced enormous
 ./technical//government/Gen_Account_Office/d03232sp.txt:Since World War II, the Congress has clarified and expanded that
 ./technical//government/Gen_Account_Office/d01591sp.txt:20Since World War II, annual growth in GDP per capita has
 ./technical//government/Gen_Account_Office/d01591sp.txt:every 35 years. Since World War II, annual growth in GDP per capita
@@ -798,7 +813,8 @@ Example 2:
 ./technical//911report/chapter-3.txt:                in World War II after having first thought the FBI might take that role. The father
 ./technical//911report/chapter-3.txt:            At the end of World War II, to Donovan's disappointment, President Harry Truman
 ./technical//911report/chapter-3.txt:                following World War II. The Congressional Reorganization Act of 1946 created the
-./technical//911report/chapter-2.txt:                progress. After gaining independence from Western powers following World War II, the`
+./technical//911report/chapter-2.txt:                progress. After gaining independence from Western powers following World War II, the
+```
 
 
   In this example, the `grep` command is searching for the string pattern "World War II" in all the directories 
@@ -817,9 +833,12 @@ Example 2:
 
 Example 1:
 
-```grep -c "environment" ./technical/government/Env_Prot_Agen/*```
+```
+grep -c "environment" ./technical/government/Env_Prot_Agen/*
+```
 
-`./technical/government/Env_Prot_Agen/1-3_meth_901.txt:1
+```
+./technical/government/Env_Prot_Agen/1-3_meth_901.txt:1
 ./technical/government/Env_Prot_Agen/atx1-6.txt:2
 ./technical/government/Env_Prot_Agen/bill.txt:16
 ./technical/government/Env_Prot_Agen/ctf1-6.txt:2
@@ -832,7 +851,8 @@ Example 1:
 ./technical/government/Env_Prot_Agen/ro_clear_skies_book.txt:11
 ./technical/government/Env_Prot_Agen/section-by-section_summary.txt:1
 ./technical/government/Env_Prot_Agen/tech_adden.txt:29
-./technical/government/Env_Prot_Agen/tech_sectiong.txt:4`
+./technical/government/Env_Prot_Agen/tech_sectiong.txt:4
+```
 
 
   In this example, the `grep` command is searching for the string pattern "environment" in all the files under 
@@ -846,9 +866,13 @@ Example 1:
 
 Example 2:
 
-```grep -c "gene" ./technical/biomed/gb-2003-4-9-r58.txt```
+```
+grep -c "gene" ./technical/biomed/gb-2003-4-9-r58.txt
+```
 
-``88``
+```
+88
+```
 
   In this example, the `grep` command is searching for the string pattern "gene" in the *gb-2003-4-9-r58.txt* 
   file under the directory `/biomed`. It's using the `-c` option, which counts the number of 
@@ -864,9 +888,12 @@ Example 2:
 
 Example 1:
 
-```grep -l "terrorist" ./technical/911report/*```
+```
+grep -l "terrorist" ./technical/911report/*
+```
 
-`./technical/911report/chapter-1.txt
+```
+./technical/911report/chapter-1.txt
 ./technical/911report/chapter-10.txt
 ./technical/911report/chapter-11.txt
 ./technical/911report/chapter-12.txt
@@ -882,7 +909,8 @@ Example 1:
 ./technical/911report/chapter-7.txt
 ./technical/911report/chapter-8.txt
 ./technical/911report/chapter-9.txt
-./technical/911report/preface.txt`
+./technical/911report/preface.txt
+```
 
   In this example, the `grep` command is searching for the string pattern "terrorist" in all the files under 
   the directory `/911report`. It's using the `-l` option, which searches the specified pattern in one file or 
@@ -894,9 +922,12 @@ Example 1:
 
 Example 2:
 
-```grep -l "DNA" ./technical/plos/*```
+```
+grep -l "DNA" ./technical/plos/*
+```
 
-`./technical/plos/journal.pbio.0020013.txt
+```
+./technical/plos/journal.pbio.0020013.txt
 ./technical/plos/journal.pbio.0020028.txt
 ./technical/plos/journal.pbio.0020035.txt
 ./technical/plos/journal.pbio.0020040.txt
@@ -948,7 +979,8 @@ Example 2:
 ./technical/plos/pmed.0020103.txt
 ./technical/plos/pmed.0020161.txt
 ./technical/plos/pmed.0020237.txt
-./technical/plos/pmed.0020273.txt`
+./technical/plos/pmed.0020273.txt
+```
 
   In this example, the `grep` command is searching for the string pattern "DNA" in all the files under 
   the directory `/plos`. It's using the `-l` option, which searches the specified pattern in one file or 
