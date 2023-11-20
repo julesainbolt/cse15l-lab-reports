@@ -67,7 +67,7 @@ After change
   }
 ```
 
-The code change addresses the issue because a `temp` variable stores the value 
+The code change addresses the issue because an int variable `temp` stores the value 
 of the specified element at index `i`. This allows the first and last elements to be 
 swapped, thus reversing the order of the elements. Before the code change, there was 
 no swapping, the last element was being copied into the first element, and the 
