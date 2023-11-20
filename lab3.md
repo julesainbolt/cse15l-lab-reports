@@ -68,15 +68,15 @@ After change
 ```
 
 The code change addresses the issue because an int variable `temp` stores the value 
-of the specified element at index `i`. This allows the first and last elements to be 
-swapped, thus reversing the order of the elements. Before the code change, there was 
-no swapping, the last element was being copied into the first element, and the 
-second to last element was being copied into the second element and so on. There 
-was no variable that stored the value of the specified element at index `i`. 
-The code would perform this operation for the entire array. With the code 
-change, it performs the swapping on half the length of the array, so that it doesn't 
-reverse or undo the swaps. With the bug fixed, it swaps the elements of the input
-array, therefore the array is in reversed order. 
+of the specified element at index `i`. This allows the elements to be swapped, thus 
+reversing the order of the elements. Before the code change, there was no swapping, 
+the last element was being copied into the first element, and the second to last 
+element was being copied into the second element and so on. There was no variable 
+that stored the value of the specified element at index `i`. The code would perform 
+this operation for the entire array. With the code change, it performs the swapping 
+on half the length of the array, so that it doesn't reverse or undo the swaps. With 
+the bug fixed, it swaps the elements of the input array, therefore the array is in 
+reversed order. 
 
 ## Part 2 - Researching Commands
 
