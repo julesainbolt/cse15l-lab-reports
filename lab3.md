@@ -13,6 +13,13 @@ Array Methods
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 15, 10, 5, 3 }, input1);
 	}
+  
+  @Test
+	public void testReverseInPlace3() {
+    int[] input1 = { 1, 2, 3, 4, 5 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, input1);
+	}
   ```
 
 - Non Failure-inducing input
@@ -24,7 +31,19 @@ Array Methods
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
+  
+  @Test
+	public void testReverseInPlace4() {
+    int[] input1 = {};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{}, input1);
+	}
   ```
+
+- Symptom
+
+  ![Array Bug Symptom](Array%20Bug%20Symptom.png)
+
 
 - Bug
 
