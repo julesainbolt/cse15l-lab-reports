@@ -76,7 +76,7 @@ was no variable that stored the value of the specified element at index `i`.
 The code would perform this operation for the entire array. With the code 
 change, it performs the swapping on half the length of the array, so that it doesn't 
 reverse or undo the swaps. With the bug fixed, it swaps the elements of the input
-array, therefore the array is in reversed order than when it got created. 
+array, therefore the array is in reversed order. 
 
 ## Part 2 - Researching Commands
 
