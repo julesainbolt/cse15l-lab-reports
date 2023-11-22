@@ -15,3 +15,7 @@ Run the tests, demonstrating that they fail
 
    ![run tests - fail](run%20tests%20-%20fail.png)
    
+Run the tests, demonstrating that they now succeed
+
+   ![run tests - pass](run%20tests%20-%20pass.png)
+
