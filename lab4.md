@@ -11,5 +11,7 @@ Clone your fork of the repository from your Github account (using the SSH URL)
 
    ![ssh clone](ssh%20clone.png)
 
+Run the tests, demonstrating that they fail
 
+   ![run tests - fail](run%20tests%20-%20fail.png)
    
