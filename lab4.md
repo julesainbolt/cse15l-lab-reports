@@ -36,7 +36,7 @@ the *lab7-final* repository and pressed `<enter>`. Then I typed in the `bash`
 command and the name of the shell script file *test.sh* and pressed `<enter>`.
 After I pressed `<enter>`, it ran the commands in the shell script file, which 
 compiled all the Java files and ran the JUnit tests. This was the output of 
-running the JUnit tests. 
+running the JUnit tests where one of the tests failed. 
 
 Edit the code file to fix the failing test
 
@@ -55,6 +55,10 @@ Run the tests, demonstrating that they now succeed
 
 Keys pressed: `<up>`, `<up>`, `<up>`, `<enter>`, The `bash test.sh` command was 3 up 
 in the search history, so I used the up arrow key to access and run it.
+
+After I pressed `<enter>`, it ran the commands in the shell script 
+file, which compiled all the Java files and ran the JUnit tests. This was the output of 
+running the JUnit tests, which was successful.
 
 
 Commit and push the resulting change to your Github account
