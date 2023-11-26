@@ -9,15 +9,21 @@ Log into ieng6
 
 Keys pressed: `<up>`, `<enter>`
 
+The `ssh` command connects to a remote computer or server over the internet. 
+After I pressed `<enter>`, it prompted me for a password, and so I copied 
+and pasted my password after the prompt. I pressed `<enter>` and I was able to 
+login to ieng6, the school server, using the `ssh` command. 
+
 
 Clone your fork of the repository from your Github account (using the SSH URL)
 
    ![ssh clone](ssh%20clone.png)
 
 Keys pressed: `git clone`, command `v` to paste in the `ssh` url, and `<enter>` 
-
+ 
 I typed in the command `git clone` and copied the `ssh` url from GitHub 
-and pasted it onto the terminal after the `git clone` command. Then I pressed `<enter>`.   
+and pasted it onto the terminal after the `git clone` command. Then I pressed `<enter>` 
+and it cloned or downloaded the repository on the ieng6 server. 
 
 Run the tests, demonstrating that they fail
 
@@ -28,6 +34,9 @@ Keys pressed: `cd directory name` , `<enter>`, `bash file name`, `<enter>`
 I typed in the `cd` command to change the working directory to 
 the *lab7-final* repository and pressed `<enter>`. Then I typed in the `bash` 
 command and the name of the shell script file *test.sh* and pressed `<enter>`.
+After I pressed `<enter>`, it ran the commands in the shell script file, which 
+compiled all the Java files and ran the JUnit tests. This was the output of 
+running the JUnit tests. 
 
 Edit the code file to fix the failing test
 
