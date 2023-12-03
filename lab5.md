@@ -2,5 +2,9 @@
 
 ## Part 1 - Debugging Scenario
 
+![bug symptom](bug%20symptom.png)
+
+
+
 ## Part 2 - Reflection
 
