@@ -147,3 +147,8 @@ Info about setup:
 
 ## Part 2 - Reflection
 
+I really enjoyed creating a grading script like Autograder to grade student submissions, 
+that was cool to learn. I never knew how to do that and it was interesting
+going through that process. 
+
+
