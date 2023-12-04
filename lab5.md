@@ -13,7 +13,7 @@ of the while loops. What do you think?
 
 TA: 
 
-You're off to a good start! It is telling you to look inside the `merge` method 
+You're off to a good start! It's telling you to look inside the `merge` method 
 and go to line 44. What do you think the bug is on that line?  
 
 
