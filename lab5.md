@@ -131,6 +131,19 @@ Info about setup:
     java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
  
 
+- The full command line (or lines) you ran to trigger the bug
+
+  I ran the command `bash test.sh`, which caused the bug to occur.
+  This was the only command I ran. 
+
+- A description of what to edit to fix the bug
+
+  In *ListExamples.java*, in the third and final `while` loop in the method `merge`,
+  the loop control variable `index2` needed to be updated, so instead of `index1 += 1;`,
+  it should have been `index2 += 1;`. Remove the 1 from `index1` and type 2, so it's now
+  `index2 += 1;` instead of `index1 += 1;`. This will fix the bug, and when you run the
+  JUnit tests, all the tests will pass. 
+
 
 ## Part 2 - Reflection
 
