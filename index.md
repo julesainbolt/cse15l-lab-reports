@@ -14,6 +14,8 @@
 
 [Lab 4](lab4.html)
 
+[Lab 5](lab5.html)
+
 ![Image]()
 
 > Hello, world!
