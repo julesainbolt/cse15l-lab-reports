@@ -38,6 +38,7 @@ Info about setup:
     ListExamples.java
     ListExamplesTests.java
     test.sh
+  ```
 
 - The contents of each file before fixing the bug
 
