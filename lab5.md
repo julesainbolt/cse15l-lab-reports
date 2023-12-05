@@ -150,8 +150,12 @@ Info about setup:
 
 ## Part 2 - Reflection
 
-I really enjoyed creating a grading script like Autograder to grade student submissions, 
-that was cool to learn. I never knew how to do that and it was interesting
-going through that process. 
+For the second half of the quarter during lab, I really enjoyed creating a grading script 
+like Autograder to grade student submissions, that was cool to learn. I never knew how to do 
+that and it was interesting going through that process. Since AI is the big buzz right now, 
+using *ChatGPT* to answer questions about text files that we don't know how to answer using 
+the text analysis commands we've learned, was very fascinating. I've heard so much about 
+*ChatGPT, but I never used it before, so learning how to use it was an awesome experience. 
+
 
 
