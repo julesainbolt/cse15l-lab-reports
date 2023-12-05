@@ -62,7 +62,7 @@ Info about setup:
             result.add(0, s);
           }
         }
-          return result;
+        return result;
       }
     
     
@@ -75,26 +75,27 @@ Info about setup:
           if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
             result.add(list1.get(index1));
             index1 += 1;
+          }
+          else {
+            result.add(list2.get(index2));
+            index2 += 1;
+          }
         }
-      else {
-      result.add(list2.get(index2));
-      index2 += 1;
-      }
-      }
-      while(index1 < list1.size()) {
-      result.add(list1.get(index1));
-      index1 += 1;
-      }
-      while(index2 < list2.size()) {
-      result.add(list2.get(index2));
-      // change index1 below to index2 to fix test
-      index1 += 1;
-      }
-      return result;
+        while(index1 < list1.size()) {
+          result.add(list1.get(index1));
+          index1 += 1;
+        }
+        while(index2 < list2.size()) {
+          result.add(list2.get(index2));
+          // change index1 below to index2 to fix test
+          index1 += 1;
+        }
+        return result;
       }
     
-      
-      }
+
+    }
+
 ```
 
 
@@ -108,21 +109,22 @@ Info about setup:
       
       
     public class ListExamplesTests {
-    @Test(timeout = 500)
-    public void testMerge1() {
-    List<String> l1 = new ArrayList<String>(Arrays.asList("x", "y"));
-    List<String> l2 = new ArrayList<String>(Arrays.asList("a", "b"));
-    assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
-    }
+        @Test(timeout = 500)
+        public void testMerge1() {
+          List<String> l1 = new ArrayList<String>(Arrays.asList("x", "y"));
+          List<String> l2 = new ArrayList<String>(Arrays.asList("a", "b"));
+          assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
+        }
       	
-    @Test(timeout = 500)
-    public void testMerge2() {
-    List<String> l1 = new ArrayList<String>(Arrays.asList("a", "b", "c"));
-    List<String> l2 = new ArrayList<String>(Arrays.asList("c", "d", "e"));
-    assertArrayEquals(new String[]{ "a", "b", "c", "c", "d", "e" }, ListExamples.merge(l1, l2).toArray());
-    }
+        @Test(timeout = 500)
+        public void testMerge2() {
+          List<String> l1 = new ArrayList<String>(Arrays.asList("a", "b", "c"));
+          List<String> l2 = new ArrayList<String>(Arrays.asList("c", "d", "e"));
+          assertArrayEquals(new String[]{ "a", "b", "c", "c", "d", "e" }, ListExamples.merge(l1, l2).toArray());
+        }
       
     }
+
 ```
 
 
